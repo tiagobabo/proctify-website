@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	z-index: 999;
+	background-color: white;
+	box-shadow: 1px 1px 15px #888888;
+}
+
+#main {
+	padding-top: 100px;
+}
+
+.right {
+	text-align: right;
+}
+
+.standardNav ul
+{	
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.standardNav ul li { 
+	display: inline; 
+}
+
+.standardNav li a:hover{
+	color: #333;
+}
+	
+.standardNav li.active a{
+	background-color: rgb(68, 147, 208);
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: white;
+	padding: 8px;
+}
+
+.standardNav li a{
+	padding: 8px;
+}		
+
+.section {
+	height: 500px;
+}
+
+.penafiel {
+	height: 500px;
+	background-image:url('../img/sameiro.jpg');
+	background-position:center; 
+}
+
+.social {
+	padding-top: 180px;
+}
+
+.social ul {
+	background-color: rgba(68, 147, 208, 0.70);
+	list-style-type: none;
+}
+
+.social ul li {
+	display: inline; 
+}
+
+#slogan {
+	padding: 20px;
+	background:rgba(255,255,255,0.7);
+	font-size: 45pt;
+	font-weight: 300; 
+}
+
+#penafiel {
+	color: rgb(229, 35, 42);
+	font-weight:bold;
+}
+
+#stimulating {
+	color: rgb(108, 185, 31);
+	font-weight:bold;
+}
+
+#logo {
+	height: 100px;
+	background-image: url('../img/logo.png');
+	background-repeat:no-repeat;
+	background-size:60%;
+	background-position:left; 
+}
+
+#blue {
+	color: rgb(68, 147, 208);
+}
+
+#team {
+	width: 100%;
+	border: 1px;
+	background-color: white;
+	margin-top: 45px;
+}
+
+#team td {
+	text-align: center;
+}
+
+#team tr {
+	background-color: white;
+	height: 200px;
+}
+
+.two {
+	padding-top: 30px;
+}
+
+#team #proctees {
+	text-align: top;
+}
+
+#who {
+	color: rgb(68, 147, 208);
+	font-size: 144pt;
+	font-weight: 200; 
+}
+
+#arewe {
+	margin-top: -15px;
+	color: rgb(68, 147, 208);
+	font-size: 78pt;
+	font-weight: 200; 
+}
+
+p {
+	text-align:justify;
+}
