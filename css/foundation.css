@@ -1232,7 +1232,7 @@ blockquote p {
   padding-bottom: 0.8125em;
   padding-left: 1.5em;
   font-size: 1em;
-  background-color: #2ba6cb;
+  background-color: rgb(68, 147, 208);
   border-color: #2284a1;
   color: white; }
   .button:hover, .button:focus {

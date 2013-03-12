@@ -6,8 +6,10 @@ $(document).ready(function(){
 		scrollOffset: -100 //#main margin
 	});
 
-	$('#logo').click(function() {
+	$('.logo').click(function() {
 		$('#start').children()[0].click();
 	});
+
+	$($('.standardNav ul').children()[0]).css('background-color', 'white');
 					
 });
