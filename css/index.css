@@ -116,6 +116,40 @@ header {
 	margin-bottom: 40px;
 }
 
+#cofounder {
+	color: rgb(68, 147, 208);
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#whoricardo{
+	color: rgb(252, 207, 27);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#wholuis{
+	color: rgb(114, 182, 43);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#whotiago{
+	color: rgb(229, 35, 42);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#whohugo{
+	color: rgb(237, 114, 26);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
 #message {
 	height: 120px;
 }
