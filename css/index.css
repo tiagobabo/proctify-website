@@ -77,6 +77,9 @@ header {
 	display: inline; 
 }
 
+.grey {
+	background-color: #f7f7f7;
+}
 #slogan {
 	padding: 20px;
 	background:rgba(255,255,255,0.7);
@@ -114,6 +117,97 @@ header {
 	font-weight: 200; 
 	text-rendering: optimizeLegibility;
 	margin-bottom: 40px;
+}
+
+
+#wwd {
+	color: rgb(68, 147, 208);
+	font-size: 64pt;
+	font-weight: 200; 
+	text-rendering: optimizeLegibility;
+	margin-bottom: 40px;
+}
+
+#wwd_table {
+	width: 100%;
+	border: 1px;
+	margin-top: 45px;
+}
+
+#wwd_table td {
+	text-align: center;
+	width: 20%;
+}
+
+#wwd_table tr {
+	background-color: #f7f7f7;
+	height: 100px;
+}
+
+.wrap {
+	display: table;
+	height: 200px;
+	margin: 0 auto;
+}
+
+#circular_team {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border-color: #e5232a;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../img/team.svg") no-repeat;
+	background-position:center; 
+	box-shadow: 0 0 8px #e5232a;
+	-webkit-box-shadow: 0 0 8px #e5232a;
+	-moz-box-shadow: 0 0 8px #e5232a;
+}
+
+#circular_skills {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border-color: #ed721a;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../img/skills.svg") no-repeat;
+	background-position:center; 
+	box-shadow: 0 0 8px #ed721a;
+	-webkit-box-shadow: 0 0 8px #ed721a;
+	-moz-box-shadow: 0 0 8px #ed721a;
+}
+
+#circular_region {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border-color: #72b62b;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../img/region.svg") no-repeat;
+	background-position:center; 
+	box-shadow: 0 0 8px #72b62b;
+	-webkit-box-shadow: 0 0 8px #72b62b;
+	-moz-box-shadow: 0 0 8px #72b62b;
+}
+
+#circular_return {
+	float: left;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	border-color: #764091;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url("../img/return.svg") no-repeat;
+	background-position:center; 
+	box-shadow: 0 0 8px #764091;
+	-webkit-box-shadow: 0 0 8px #764091;
+	-moz-box-shadow: 0 0 8px #764091;
 }
 
 #cofounder {
