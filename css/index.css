@@ -114,6 +114,7 @@ header {
 	font-weight: 200; 
 	text-rendering: optimizeLegibility;
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 
@@ -123,6 +124,7 @@ header {
 	font-weight: 200; 
 	text-rendering: optimizeLegibility;
 	margin-bottom: 40px;
+	text-align: center;
 }
 
 #wwd_table {
@@ -328,6 +330,12 @@ header {
 	}
 	.grey {
 		height: 500px;
+	}
+	#wwd {
+		text-align: left;
+	}
+	#touch {
+		text-align: left;
 	}
 }
 
