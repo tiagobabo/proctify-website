@@ -53,10 +53,6 @@ header {
 	background-color: white;
 }		
 
-.section {
-	height: 500px;
-}
-
 .penafiel {
 	height: 500px;
 	background-image:url('../img/sameiro.jpg');
@@ -79,6 +75,7 @@ header {
 
 .grey {
 	background-color: #f7f7f7;
+	height: auto;
 }
 #slogan {
 	padding: 20px;
@@ -150,6 +147,10 @@ header {
 	margin: 0 auto;
 }
 
+.wwd_images {
+	display: none;
+}
+
 #circular_team {
 	float: left;
 	width: 200px;
@@ -163,6 +164,7 @@ header {
 	box-shadow: 0 0 8px #e5232a;
 	-webkit-box-shadow: 0 0 8px #e5232a;
 	-moz-box-shadow: 0 0 8px #e5232a;
+	margin-bottom: 30px;
 }
 
 #circular_skills {
@@ -178,6 +180,7 @@ header {
 	box-shadow: 0 0 8px #ed721a;
 	-webkit-box-shadow: 0 0 8px #ed721a;
 	-moz-box-shadow: 0 0 8px #ed721a;
+	margin-bottom: 30px;
 }
 
 #circular_region {
@@ -193,6 +196,7 @@ header {
 	box-shadow: 0 0 8px #72b62b;
 	-webkit-box-shadow: 0 0 8px #72b62b;
 	-moz-box-shadow: 0 0 8px #72b62b;
+	margin-bottom: 30px;
 }
 
 #circular_return {
@@ -208,6 +212,7 @@ header {
 	box-shadow: 0 0 8px #764091;
 	-webkit-box-shadow: 0 0 8px #764091;
 	-moz-box-shadow: 0 0 8px #764091;
+	margin-bottom: 30px;
 }
 
 #cofounder {
@@ -223,7 +228,21 @@ header {
 	text-align: center;
 }
 
+#whoricardo a{
+	color: rgb(252, 207, 27);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
 #wholuis{
+	color: rgb(114, 182, 43);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#wholuis a{
 	color: rgb(114, 182, 43);
 	font-weight: 700; 
 	text-rendering: optimizeLegibility;
@@ -237,7 +256,22 @@ header {
 	text-align: center;
 }
 
+#whotiago a{
+	color: rgb(229, 35, 42);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+
 #whohugo{
+	color: rgb(237, 114, 26);
+	font-weight: 700; 
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+#whohugo a{
 	color: rgb(237, 114, 26);
 	font-weight: 700; 
 	text-rendering: optimizeLegibility;
@@ -288,6 +322,12 @@ header {
 	}
 	#message {
 		height: 200px;
+	}
+	.wwd_images {
+		display: block;
+	}
+	.grey {
+		height: 500px;
 	}
 }
 
@@ -340,6 +380,10 @@ header {
 	padding-top: 30px;
 }
 
+.section_height {
+	height: 500px;
+}
+
 #team #proctees {
 	text-align: top;
 }
@@ -360,4 +404,9 @@ p {
 
 .button-right {
 	float: right;
+}
+
+.center {
+	text-align: center;
+	margin-bottom: 20px;
 }
